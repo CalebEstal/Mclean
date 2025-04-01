@@ -1,0 +1,168 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mclean Carpentry & Remodeling</title>
+    <script src="assets/js/script.js" defer></script>
+    <link
+      href="https://fonts.oogleapis.com/css2?family=Kanit:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header + Nav -->
+    <header>
+      <a href="./index.html">
+        <img
+          src="./assets/Images/logo/Colored__Colored.svg"
+          alt="McLean Logo"
+        />
+      </a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="./contact-us.html">Contact Us</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./our-work.html">Our Work</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="gallery">
+      <h2>Our Projects</h2>
+      <div class="gallery-grid">
+        <div class="project" onclick="openSlideshow('project9')">
+          <img
+            src="./assets/Images/Deck-Photos/Deck 12.jpg"
+            alt="Project 1 Before"
+          />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project15')">
+          <img src="./assets/Images/Bed/3.jpg" alt="Project 1 Before" />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project14')">
+          <img src="./assets/Images/Crib/3.jpg" alt="Project 1 Before" />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project13')">
+          <img
+            src="./assets/Images/Basement-Remodel/8.jpg"
+            alt="Project 1 Before"
+          />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project11')">
+          <img
+            src="./assets/Images/Matt-Bathroom/Matt bathroom 2.jpg"
+            alt="Project 1 Before"
+          />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project10')">
+          <img
+            src="./assets/Images/Bathroom-Remodel-2/5.jpg"
+            alt="Project 1 Before"
+          />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project9')">
+          <img
+            src="./assets/Images/Bathroom-Remodel/8.jpg"
+            alt="Project 1 Before"
+          />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project9')">
+          <img
+            src="./assets/Images/Shower-Remodel/8.jpg"
+            alt="Project 1 Before"
+          />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project8')">
+          <img
+            src="./assets/Images/Kitchen-Remodel/15.jpg"
+            alt="Project 1 Before"
+          />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project7')">
+          <img src="./assets/Images/Cross.jpg" alt="Project 1 Before" />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project6')">
+          <img src="./assets/Images/trunk/5.jpg" alt="Project 1 Before" />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project5')">
+          <img
+            src="./assets/Images/Shed-Project/9.jpg"
+            alt="Project 1 Before"
+          />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project4')">
+          <img
+            src="./assets/Images/Porch-Project/6.jpg"
+            alt="Project 1 Before"
+          />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project3')">
+          <img
+            src="./assets/Images/Fence-Project/4.jpg"
+            alt="Project 1 Before"
+          />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project2')">
+          <img
+            src="./assets/Images/Entertainment-Center/1.jpg"
+            alt="Project 1 Before"
+          />
+          <p>Project 1 Description</p>
+        </div>
+
+        <div class="project" onclick="openSlideshow('project1')">
+          <img
+            src="./assets/Images/Laundry-Room-Remodel/14.jpg"
+            alt="Project 1 Before"
+          />
+          <p>Project 1 Description</p>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </section>
+
+    <!-- Slideshow Modal -->
+    <div id="slideshow-modal" class="modal" onclick="closeSlideshow()">
+      <span class="close">&times;</span>
+      <div class="slideshow-content">
+        <img id="slideshow-image" src="" alt="" />
+      </div>
+    </div>
+
+    <footer>
+      <a href="./privacy-policy.html"><h3>Privacy Policy</h3></a>
+      <h3>&copy; 2024 Mclean Carpentry & Remodeling</h3>
+    </footer>
+    <script src="assets/js/gallery.js"></script>
+  </body>
+</html>
